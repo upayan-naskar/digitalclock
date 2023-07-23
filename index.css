@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins;
+
+    background-position: center;
+    background-size: stretch;
+}
+
+#container{
+    color: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    margin-top: 200px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+/* Making the page responsive  */
+
+@media only screen and (min-width: 300px) and (max-width: 1300px) {
+    body{
+        background-image: url('/bg-img3.jpg');
+    }
+    #container{
+        height: 100px;
+        width: 200px;
+        font-size: 20px;
+        margin-top: 250px;
+        margin-left: 75px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1300px) {
+    body{
+        background-image: url('/bg-img4.jpg');
+    }
+    #container{
+        height: 400px;
+        width: 500px;
+        font-size: 100px;
+        margin-top: 400px;
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body{
+        background-image: url('/bg-img2.jpg');
+    }
+    #container{
+        height: 300px;
+        width: 450px;
+        font-size: 100px;
+        margin-top: 400px;
+        margin-left:170px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body{
+        background-image: url('/bg-img1.avif');
+    }
+    #container{
+        height: 300px;
+        width: 450px;
+        font-size: 100px;
+        margin-top: 200px;
+        margin-left:475px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width:1300px) {
+    body{
+        background-image: url('/bg-img2.jpg');
+    }
+    #container{
+        height: 300px;
+        width: 450px;
+        font-size: 100px;
+        margin-top: 500px;
+        margin-left:300px;
+    }
+}
