@@ -14,3 +14,5 @@ We have added a background image and it changes with respect to the kind of the 
 Hope you will like this project.
 
 Thank you for reading till the end.
+
+Open https://digitalclock-by-upayannaskar.netlify.app/ for viewing the final result.
